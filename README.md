@@ -4,4 +4,8 @@ Imaginez une colonie de fourmis qui doit se déplacer d'un point à un autre. Ma
 
 Usage :
 
-./Lem-in map
+Generate map:
+./generator --flow-thousand > map
+
+Use the algorithm:
+./Lem-in map < map
